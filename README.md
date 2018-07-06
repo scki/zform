@@ -13,9 +13,9 @@ use zsend\classes\CForm;
 Так же необходимо подключить, в тег <*head*> скрипты и файлы стилей, использующиеся в форме:
 ```html
 <head>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="zsend/css/style.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="zsend/js/script.js"></script>
 </head>
 ```
 Форма использует плагин *JQuery*, если он уже подключен, то подключать повторно не обязательно.
