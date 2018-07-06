@@ -80,7 +80,7 @@ class CFormValidate
     }
 
     /**
-     * Метод валидации галочки 'лсогласие'
+     * Метод валидации галочки 'согласие'
      * @param $agreed
      * @return string
      */
