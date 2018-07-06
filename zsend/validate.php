@@ -5,7 +5,7 @@
  * Date: 27.06.2018
  * Time: 14:22
  */
-include_once 'classes\CFormValidate.php';
+include_once 'classes/CFormValidate.php';
 
 use zsend\classes\CFormValidate;
 
