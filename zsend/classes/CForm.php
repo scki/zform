@@ -90,11 +90,11 @@ Class CForm
      * Метод для начала формы.
      * Генерирует тег form (начало формы) вида <form>
      * Принимает массив с параметрами, содержащими внутри себя:
-       id,
-       class - по умолчанию $this->classForm,
-       action,
-       method
-       name.
+     * id,
+     * class - по умолчанию $this->classForm,
+     * action,
+     * method
+     * name.
      * Параметр $horizontally добавляет класс 'horizontally', для размещения формы горизонтально.
      * @param array $params
      * @param bool $horizontally
