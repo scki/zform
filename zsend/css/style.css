@@ -1,0 +1,102 @@
+.cform {
+    font-family: "Arial";
+    width: 350px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+.cform .input-field {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    min-height: 42px;
+}
+
+.cform img {
+    position: absolute;
+    top: 12px;
+    left: -3px;
+}
+
+.cform button,
+.cform textarea,
+.cform input {
+    width: 75%;
+    margin: 15px 0 5px 44px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    resize: none;
+}
+
+.cform button:focus,
+.cform textarea:focus,
+.cform input:focus {
+    border: 1px solid #304ffe;
+    outline: none;
+}
+
+.cform .input-field:hover,
+.cform .input-field:hover,
+.cform .input-field:hover {
+    border-bottom: 1px solid #304ffe;
+}
+
+.cform button {
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 0;
+    font-family: 'FuturaFuturisC-Bold';
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    background-color: #304ffe;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 0 0 5px 25px;
+}
+
+.cform button:disabled {
+    color: #fff;
+    background-color: #ccc;
+    cursor: no-drop;
+}
+
+.cform .input-field.error {
+    color: red;
+}
+
+.cform .input-field.error input {
+    border: 1px solid red;
+}
+
+.cform .input-field.ok {
+    color: green;
+}
+
+.cform .input-field.ok input {
+    border: 1px solid green;
+}
+
+.cform input[checkbox]{
+    width: 25px;
+    float: left;
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
