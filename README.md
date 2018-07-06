@@ -6,7 +6,7 @@
 
 ```php
 <?php
-include_once 'zsend\classes\CForm.php';
+include_once 'zsend/classes/CForm.php';
 use zsend\classes\CForm;
 ?>
 ```
