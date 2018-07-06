@@ -6,9 +6,9 @@ use zsend\classes\CForm;
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="zsend/css/style.css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="zsend/js/script.js"></script>
 </head>
 <body>
     <?php $form = new CForm('name', 'email', 'phone', 'message', 'agreed') ?>
