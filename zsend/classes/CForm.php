@@ -51,7 +51,7 @@ Class CForm
      * email и message.
      * @var string
      */
-    public $srcIcons = '../img/';
+    public $srcIcons = 'zsend-form/img/';
 
     /**
      * @var string
