@@ -1,5 +1,5 @@
 <?php
-include_once 'classes/CSender.php';
+include_once 'classes\CSender.php';
 use zsend\classes\CSender;
 
 parse_str($_POST['urlData'], $urlData);
