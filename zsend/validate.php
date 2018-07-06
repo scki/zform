@@ -8,7 +8,6 @@
 include_once 'classes/CFormValidate.php';
 
 use zsend\classes\CFormValidate;
-//use classes\CFormValidate;
 
 $response = $fields = [];
 
